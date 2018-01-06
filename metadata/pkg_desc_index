@@ -1,3 +1,4 @@
+app-emulation/wine 2.0: Free implementation of Windows(tm) on Unix
 app-emulation/wine-desktop-common 20150204: Various desktop menu items and icons for wine
 app-emulation/wine-gecko 2.47-r1: A Mozilla Gecko based version of Internet Explorer for Wine
 app-emulation/wine-mono 4.6.4: Wine Mono is a replacement for the .NET runtime and class libraries in Wine
