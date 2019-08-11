@@ -2,6 +2,11 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-emulation/faudio:ffmpeg - FAudio has optional support for decoding xWMA resources using FFmpeg, requiring: media-video/ffmpeg (note: this feature is not supported by media-video/libav).
+app-emulation/faudio:test - Build and run faudio testsuite.
+app-emulation/faudio:utils - Build all faudio utilities.
+app-emulation/faudio:xnasong - Build support for optional XNG_SONG component (note: this not required by app-emulation/wine-staging, app-emulation/wine-vanilla for faudio XAudio support).
+app-emulation/vkd3d:spirv-tools - Enable SPIRV shader debugging support using dev-util/spirv-tools
 app-emulation/wine:capi - Enable ISDN support via CAPI
 app-emulation/wine:custom-cflags - Bypass strip-flags; use at your own peril
 app-emulation/wine:d3d9 - Apply highly experimental patches for Gallium Nine support. This patch may break some applications.
@@ -23,6 +28,99 @@ app-emulation/wine:samba - Add support for NTLM auth. See: https://web.archive.o
 app-emulation/wine:staging - Apply Wine-Staging patches for advanced feature support that haven't made it into upstream Wine yet
 app-emulation/wine:themes - Support GTK+:3 window theming through Wine-Staging
 app-emulation/wine:udev - Use virtual/libudev to provide plug and play support
+app-emulation/wine-any:capi - Enable ISDN support via CAPI
+app-emulation/wine-any:custom-cflags - Bypass strip-flags; use at your own peril
+app-emulation/wine-any:d3d9 - Apply highly experimental patches for Gallium Nine support. This patch may break some applications.
+app-emulation/wine-any:dos - Pull in games-emulation/dosbox to run DOS applications
+app-emulation/wine-any:ffmpeg - Use media-video/ffmpeg to decode WMA formats
+app-emulation/wine-any:gecko - Add support for the Gecko engine when using iexplore
+app-emulation/wine-any:gssapi - Use GSSAPI (Kerberos SSP support)
+app-emulation/wine-any:gstreamer - Use media-libs/gstreamer to provide DirectShow functionality;
+app-emulation/wine-any:mono - Add support for .NET using Wine's Mono add-on
+app-emulation/wine-any:netapi - Use libnetapi from net-fs/samba to support Windows networks in netapi32.dll
+app-emulation/wine-any:opencl - Enable OpenCL support
+app-emulation/wine-any:osmesa - Add support for OpenGL in bitmaps using libOSMesa
+app-emulation/wine-any:pcap - Support packet capture software (e.g. wireshark)
+app-emulation/wine-any:perl - Install helpers written in perl (winedump/winemaker)
+app-emulation/wine-any:pipelight - Apply Wine-Staging patches for Pipelight/Silverlight support
+app-emulation/wine-any:prelink - Run prelink on DLLs during build; For Gentoo hardened, do not disable if you do not know what this means as it can break things at runtime
+app-emulation/wine-any:realtime - Pull in sys-auth/rtkit for low-latency pulseaudio support
+app-emulation/wine-any:run-exes - Use Wine to open and run .EXE and .MSI files
+app-emulation/wine-any:s3tc - Pull in media-libs/libtxc_dxtn for DXTn texture compression, needed for many games
+app-emulation/wine-any:samba - Add support for NTLM auth. See: https://web.archive.org/web/20160108123008/http://wiki.winehq.org:80/NtlmAuthSetupGuide and https://web.archive.org/web/20150906013746/http://wiki.winehq.org/NtlmSigningAndSealing (these pages are not currently in the updated WineHQ Wiki).
+app-emulation/wine-any:sdl - Add support for gamepad detection using SDL
+app-emulation/wine-any:staging - Apply Wine-Staging patches for advanced feature support that haven't made it into upstream Wine yet
+app-emulation/wine-any:themes - Support GTK+:3 window theming through Wine-Staging
+app-emulation/wine-any:udev - Use virtual/libudev to provide plug and play support
+app-emulation/wine-any:vkd3d - Use app-emulation/vkd3d to provide Direct3D 12 support
+app-emulation/wine-any:vulkan - Enable Vulkan drivers
+app-emulation/wine-d3d9:capi - Enable ISDN support via CAPI
+app-emulation/wine-d3d9:custom-cflags - Bypass strip-flags; use at your own peril
+app-emulation/wine-d3d9:d3d9 - Apply highly experimental patches for Gallium Nine support. This patch may break some applications.
+app-emulation/wine-d3d9:dos - Pull in games-emulation/dosbox to run DOS applications
+app-emulation/wine-d3d9:gecko - Add support for the Gecko engine when using iexplore
+app-emulation/wine-d3d9:gssapi - Use GSSAPI (Kerberos SSP support)
+app-emulation/wine-d3d9:gstreamer - Use media-libs/gstreamer to provide DirectShow functionality;
+app-emulation/wine-d3d9:mono - Add support for .NET using Wine's Mono add-on
+app-emulation/wine-d3d9:netapi - Use libnetapi from net-fs/samba to support Windows networks in netapi32.dll
+app-emulation/wine-d3d9:opencl - Enable OpenCL support
+app-emulation/wine-d3d9:osmesa - Add support for OpenGL in bitmaps using libOSMesa
+app-emulation/wine-d3d9:pcap - Support packet capture software (e.g. wireshark)
+app-emulation/wine-d3d9:perl - Install helpers written in perl (winedump/winemaker)
+app-emulation/wine-d3d9:prelink - Run prelink on DLLs during build; For Gentoo hardened, do not disable if you do not know what this means as it can break things at runtime
+app-emulation/wine-d3d9:realtime - Pull in sys-auth/rtkit for low-latency pulseaudio support
+app-emulation/wine-d3d9:run-exes - Use Wine to open and run .EXE and .MSI files
+app-emulation/wine-d3d9:samba - Add support for NTLM auth. See: https://web.archive.org/web/20160108123008/http://wiki.winehq.org:80/NtlmAuthSetupGuide and https://web.archive.org/web/20150906013746/http://wiki.winehq.org/NtlmSigningAndSealing (these pages are not currently in the updated WineHQ Wiki).
+app-emulation/wine-d3d9:sdl - Add support for gamepad detection using SDL
+app-emulation/wine-d3d9:udev - Use virtual/libudev to provide plug and play support
+app-emulation/wine-d3d9:vkd3d - Use app-emulation/vkd3d to provide Direct3D 12 support
+app-emulation/wine-d3d9:vulkan - Enable Vulkan drivers
+app-emulation/wine-staging:capi - Enable ISDN support via CAPI
+app-emulation/wine-staging:custom-cflags - Bypass strip-flags; use at your own peril
+app-emulation/wine-staging:dos - Pull in games-emulation/dosbox to run DOS applications
+app-emulation/wine-staging:faudio - Pull in app-emulation/faudio to provide XAudio2 functionality
+app-emulation/wine-staging:ffmpeg - Use media-video/ffmpeg to decode WMA formats
+app-emulation/wine-staging:gecko - Add support for the Gecko engine when using iexplore
+app-emulation/wine-staging:gssapi - Use GSSAPI (Kerberos SSP support)
+app-emulation/wine-staging:gstreamer - Use media-libs/gstreamer to provide DirectShow functionality;
+app-emulation/wine-staging:mono - Add support for .NET using Wine's Mono add-on
+app-emulation/wine-staging:netapi - Use libnetapi from net-fs/samba to support Windows networks in netapi32.dll
+app-emulation/wine-staging:opencl - Enable OpenCL support
+app-emulation/wine-staging:osmesa - Add support for OpenGL in bitmaps using libOSMesa
+app-emulation/wine-staging:pcap - Support packet capture software (e.g. wireshark)
+app-emulation/wine-staging:perl - Install helpers written in perl (winedump/winemaker)
+app-emulation/wine-staging:pipelight - Apply Wine-Staging patches for Pipelight/Silverlight support
+app-emulation/wine-staging:prelink - Run prelink on DLLs during build; For Gentoo hardened, do not disable if you do not know what this means as it can break things at runtime
+app-emulation/wine-staging:realtime - Pull in sys-auth/rtkit for low-latency pulseaudio support
+app-emulation/wine-staging:run-exes - Use Wine to open and run .EXE and .MSI files
+app-emulation/wine-staging:samba - Add support for NTLM auth. See: https://web.archive.org/web/20160108123008/http://wiki.winehq.org:80/NtlmAuthSetupGuide and https://web.archive.org/web/20150906013746/http://wiki.winehq.org/NtlmSigningAndSealing (these pages are not currently in the updated WineHQ Wiki).
+app-emulation/wine-staging:sdl - Add support for gamepad detection using SDL
+app-emulation/wine-staging:staging - Apply Wine-Staging patches for advanced feature support that haven't made it into upstream Wine yet
+app-emulation/wine-staging:themes - Support GTK+:3 window theming through Wine-Staging
+app-emulation/wine-staging:udev - Use virtual/libudev to provide plug and play support
+app-emulation/wine-staging:vkd3d - Use app-emulation/vkd3d to provide Direct3D 12 support
+app-emulation/wine-staging:vulkan - Enable Vulkan drivers
+app-emulation/wine-vanilla:capi - Enable ISDN support via CAPI
+app-emulation/wine-vanilla:custom-cflags - Bypass strip-flags; use at your own peril
+app-emulation/wine-vanilla:dos - Pull in games-emulation/dosbox to run DOS applications
+app-emulation/wine-vanilla:faudio - Pull in app-emulation/faudio to provide XAudio2 functionality
+app-emulation/wine-vanilla:gecko - Add support for the Gecko engine when using iexplore
+app-emulation/wine-vanilla:gssapi - Use GSSAPI (Kerberos SSP support)
+app-emulation/wine-vanilla:gstreamer - Use media-libs/gstreamer to provide DirectShow functionality;
+app-emulation/wine-vanilla:mono - Add support for .NET using Wine's Mono add-on
+app-emulation/wine-vanilla:netapi - Use libnetapi from net-fs/samba to support Windows networks in netapi32.dll
+app-emulation/wine-vanilla:opencl - Enable OpenCL support
+app-emulation/wine-vanilla:osmesa - Add support for OpenGL in bitmaps using libOSMesa
+app-emulation/wine-vanilla:pcap - Support packet capture software (e.g. wireshark)
+app-emulation/wine-vanilla:perl - Install helpers written in perl (winedump/winemaker)
+app-emulation/wine-vanilla:prelink - Run prelink on DLLs during build; For Gentoo hardened, do not disable if you do not know what this means as it can break things at runtime
+app-emulation/wine-vanilla:realtime - Pull in sys-auth/rtkit for low-latency pulseaudio support
+app-emulation/wine-vanilla:run-exes - Use Wine to open and run .EXE and .MSI files
+app-emulation/wine-vanilla:samba - Add support for NTLM auth. See: https://web.archive.org/web/20160108123008/http://wiki.winehq.org:80/NtlmAuthSetupGuide and https://web.archive.org/web/20150906013746/http://wiki.winehq.org/NtlmSigningAndSealing (these pages are not currently in the updated WineHQ Wiki).
+app-emulation/wine-vanilla:sdl - Add support for gamepad detection using SDL
+app-emulation/wine-vanilla:udev - Use virtual/libudev to provide plug and play support
+app-emulation/wine-vanilla:vkd3d - Use app-emulation/vkd3d to provide Direct3D 12 support
+app-emulation/wine-vanilla:vulkan - Enable Vulkan drivers
 app-emulation/winetricks:rar - Pull in app-arch/unrar for extraction of rar-compressed game files
 virtual/wine:d3d9 - Enable Ixit's Gallium Nine Patchset
 virtual/wine:staging - Enable Wine-Staging's Patchset
