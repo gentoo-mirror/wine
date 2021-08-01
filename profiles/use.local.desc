@@ -54,6 +54,8 @@ app-emulation/wine-d3d9:sdl - Add support for gamepad detection using SDL
 app-emulation/wine-d3d9:udev - Use virtual/libudev to provide plug and play support
 app-emulation/wine-d3d9:vkd3d - Use app-emulation/vkd3d to provide Direct3D 12 support
 app-emulation/wine-d3d9:vulkan - Enable Vulkan drivers
+app-emulation/wine-gecko:shared - Install pre-unpacked files which do not need to be copied into the Wine prefix
+app-emulation/wine-mono:shared - Install pre-unpacked files which do not need to be copied into the Wine prefix
 app-emulation/wine-staging:capi - Enable ISDN support via CAPI
 app-emulation/wine-staging:custom-cflags - Bypass strip-flags; use at your own peril
 app-emulation/wine-staging:dos - Pull in games-emulation/dosbox to run DOS applications
