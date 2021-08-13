@@ -1,5 +1,7 @@
 app-emulation/faudio 19.01 19.02 19.03 19.06 19.09 21.01 9999: FAudio - Accuracy-focused XAudio reimplementation for open platforms
 app-emulation/vkd3d 1.0 1.2 9999: D3D12 to Vulkan translation library
+app-emulation/wine-any 2.0-r1 2.1-r1 2.2-r1 2.3-r1 2.4-r1 2.5-r1 2.6-r1 2.7-r1 2.8-r1 2.9-r1 2.10-r1 2.11-r1 2.12-r1 2.13-r1 2.14-r1 2.15-r1 2.16-r1 2.17-r1 2.18 2.19 2.20 2.21 3.3 3.4 3.5 3.6 3.7 3.8 3.9 3.10 3.11 3.12 3.13 3.13-r1 3.14 3.15 3.16 3.17 3.18 3.19 3.20 3.21 4.0 4.1 9999: Free implementation of Windows(tm) on Unix, with optional external patchsets
+app-emulation/wine-d3d9 2.0-r1 2.1-r1 2.2-r1 2.3-r1 2.4-r1 2.5-r1 2.6-r1 2.7-r1 2.8-r1 2.9-r1 2.10-r1 2.11-r1 2.12-r1 2.13-r1 2.14-r1 2.15-r1 2.16-r1 2.17-r1 2.18 2.19 2.20 2.21 3.3 3.4 3.5 3.6 3.7 3.8 3.9 3.10 3.11 3.12 3.13 3.13-r1 3.14 3.15 3.16 3.17 3.18 3.19 3.20 3.21 4.0 4.1 9999: Free implementation of Windows(tm) on Unix, with Gallium Nine patchset
 app-emulation/wine-desktop-common 20150204 20150204-r1: Various desktop menu items and icons for wine
 app-emulation/wine-gecko 2.47-r1 2.47.1 2.47.2: A Mozilla Gecko based version of Internet Explorer for Wine
 app-emulation/wine-mono 4.6.4 4.7.0 4.7.1 4.7.3 4.7.5 4.8.0 4.8.1 4.8.3 4.9.0 4.9.2 4.9.3 4.9.4 5.0.0 5.1.0 5.1.1 6.0.0 6.1.1 6.2.0 6.3.0: Wine Mono is a replacement for the .NET runtime and class libraries in Wine
