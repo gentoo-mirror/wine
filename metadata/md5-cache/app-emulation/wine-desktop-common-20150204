@@ -9,5 +9,5 @@ PDEPEND=app-eselect/eselect-wine
 RDEPEND=!!app-emulation/wine:0
 SLOT=0
 SRC_URI=https://github.com/NP-Hardass/wine-desktop-common/archive/20150204.tar.gz -> wine-desktop-common-20150204.tar.gz
-_eclasses_=multilib	de4beb52bfa93c4c5d96792a6b5e1784	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3
+_eclasses_=multilib	4a33c9008e5ee30cb8840a3fdc24df2b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3
 _md5_=cdee3ea8e1eb06ff02e93f663bf549d5
