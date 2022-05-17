@@ -22,7 +22,6 @@ app-emulation/wine-any:osmesa - Add support for OpenGL in bitmaps using libOSMes
 app-emulation/wine-any:pcap - Support packet capture software (e.g. wireshark)
 app-emulation/wine-any:perl - Install helpers written in perl (winedump/winemaker)
 app-emulation/wine-any:pipelight - Apply Wine-Staging patches for Pipelight/Silverlight support
-app-emulation/wine-any:prelink - Run prelink on DLLs during build; For Gentoo hardened, do not disable if you do not know what this means as it can break things at runtime
 app-emulation/wine-any:realtime - Pull in sys-auth/rtkit for low-latency pulseaudio support
 app-emulation/wine-any:run-exes - Use Wine to open and run .EXE and .MSI files
 app-emulation/wine-any:s3tc - Pull in media-libs/libtxc_dxtn for DXTn texture compression, needed for many games
@@ -46,7 +45,6 @@ app-emulation/wine-d3d9:opencl - Enable OpenCL support
 app-emulation/wine-d3d9:osmesa - Add support for OpenGL in bitmaps using libOSMesa
 app-emulation/wine-d3d9:pcap - Support packet capture software (e.g. wireshark)
 app-emulation/wine-d3d9:perl - Install helpers written in perl (winedump/winemaker)
-app-emulation/wine-d3d9:prelink - Run prelink on DLLs during build; For Gentoo hardened, do not disable if you do not know what this means as it can break things at runtime
 app-emulation/wine-d3d9:realtime - Pull in sys-auth/rtkit for low-latency pulseaudio support
 app-emulation/wine-d3d9:run-exes - Use Wine to open and run .EXE and .MSI files
 app-emulation/wine-d3d9:samba - Add support for NTLM auth. See: https://web.archive.org/web/20160108123008/http://wiki.winehq.org:80/NtlmAuthSetupGuide and https://web.archive.org/web/20150906013746/http://wiki.winehq.org/NtlmSigningAndSealing (these pages are not currently in the updated WineHQ Wiki).
